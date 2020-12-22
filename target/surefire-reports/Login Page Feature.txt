@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: Login Page Feature
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 11.752 s <<< FAILURE! - in Login Page Feature
+Login page title(Login Page Feature)  Time elapsed: 3.794 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [user is on login page] is defined with 1 parameters at 'stepdefinitions.LoginPageSteps.user_is_on_login_page(io.cucumber.java.Scenario)'.
+However, the gherkin step has 0 arguments.
+Step text: user is on login page
+
+Shop Logo(Login Page Feature)  Time elapsed: 2.85 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [user is on login page] is defined with 1 parameters at 'stepdefinitions.LoginPageSteps.user_is_on_login_page(io.cucumber.java.Scenario)'.
+However, the gherkin step has 0 arguments.
+Step text: user is on login page
+
+Menu Items(Login Page Feature)  Time elapsed: 2.625 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [user is on login page] is defined with 1 parameters at 'stepdefinitions.LoginPageSteps.user_is_on_login_page(io.cucumber.java.Scenario)'.
+However, the gherkin step has 0 arguments.
+Step text: user is on login page
+
+Logins into application(Login Page Feature)  Time elapsed: 2.48 s  <<< ERROR!
+io.cucumber.core.exception.CucumberException: 
+Step [user is on login page] is defined with 1 parameters at 'stepdefinitions.LoginPageSteps.user_is_on_login_page(io.cucumber.java.Scenario)'.
+However, the gherkin step has 0 arguments.
+Step text: user is on login page
+
