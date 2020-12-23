@@ -29,7 +29,7 @@ public void user_has_already_logged_into_application(io.cucumber.datatable.DataT
 	String username = credentials.get(0).get("username");
 	String password = credentials.get(0).get("password");
 	
-	DriverFactory.getDriver().get("http://demowebshop.tricentis.com/");
+	//DriverFactory.getDriver().get("http://demowebshop.tricentis.com/");
 	welcompage = loginpage.doLogin(username, password);
 	
    

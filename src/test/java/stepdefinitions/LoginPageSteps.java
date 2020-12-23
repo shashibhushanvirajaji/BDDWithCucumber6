@@ -19,7 +19,7 @@ public class LoginPageSteps {
 
 	@Given("user is on login page")
 	public void user_is_on_login_page() {
-		DriverFactory.getDriver().get("http://demowebshop.tricentis.com/");		
+		//DriverFactory.getDriver().get("http://demowebshop.tricentis.com/");		
 		assertTrue("user is on the login page", loginpage.isLoginLinkPresent());
 		
 		

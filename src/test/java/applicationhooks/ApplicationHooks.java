@@ -33,6 +33,7 @@ public class ApplicationHooks {
 		String browserName = lProp.getProperty("browser");
 		driverFactory = new DriverFactory();
 		driver = driverFactory.initializeDriver(browserName);
+		driver.get("http://demowebshop.tricentis.com/");
 	}
 	
 	@After(order = 0)
