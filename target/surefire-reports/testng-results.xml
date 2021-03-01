@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-20T04:50:54Z" name="parallel.RunCucumberTest" finished-at="2021-01-20T04:51:23Z" duration-ms="29570">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@b3d7190]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-01-20T04:50:54Z" name="Command line test" finished-at="2021-01-20T04:51:23Z" duration-ms="29570">
+      <class name="parallel.RunCucumberTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:parallel.RunCucumberTest@b3d7190]" started-at="2021-01-20T04:50:54Z" name="setUpClass" finished-at="2021-01-20T04:50:55Z" duration-ms="873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@b3d7190]" started-at="2021-01-20T04:50:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-20T04:51:13Z" duration-ms="18221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login page title"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@b3d7190]" started-at="2021-01-20T04:50:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-20T04:51:18Z" duration-ms="23515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Welcome text"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Welcome page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@b3d7190]" started-at="2021-01-20T04:50:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-20T04:51:12Z" duration-ms="17261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Menu Items"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@b3d7190]" started-at="2021-01-20T04:50:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-20T04:51:19Z" duration-ms="24584" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Logins into application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@b3d7190]" started-at="2021-01-20T04:50:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-20T04:51:12Z" duration-ms="17815" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Shop Logo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Login Page Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:parallel.RunCucumberTest@b3d7190]" started-at="2021-01-20T04:50:55Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-01-20T04:51:20Z" duration-ms="25288" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check user is on welcome page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Welcome page feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:parallel.RunCucumberTest@b3d7190]" started-at="2021-01-20T04:51:20Z" name="tearDownClass" finished-at="2021-01-20T04:51:23Z" duration-ms="3377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- parallel.RunCucumberTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- parallel.RunCucumberTest -->
+</testng-results>

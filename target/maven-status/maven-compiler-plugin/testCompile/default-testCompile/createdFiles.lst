@@ -1,0 +1,4 @@
+parallel\LoginPageSteps.class
+parallel\RunCucumberTest.class
+parallel\WelcomePageSteps.class
+parallel\ApplicationHooks.class
